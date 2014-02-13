@@ -1,5 +1,7 @@
     <hgroup>
-      <h1 class="site_title">{$GLOBAL.website.name|default:"Unknown Faucet"}</h1>
+<div class="container">
+      <img src="../images/42logo.png" alt="42 logo"></img>
+</div>
     {if $smarty.session.AUTHENTICATED|default:"0" == 1}  
       <h2 class="section_title">{if $smarty.request.action|escape|default:""}{$smarty.request.action|escape|capitalize}{else}{$smarty.request.page|escape|default:"home"|capitalize}{/if}</h2>
 {/if}
