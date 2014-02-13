@@ -3,7 +3,7 @@
 <div class="payout_container">
 <form action="{$smarty.server.SCRIPT_NAME}" method="post" class="payout_form">
 <input id="mainaddress" type="text" name="userAddress" maxlength="64" placeholder="Input your coin address here"></input>
-<input id="mainsubmit" type="submit" value="Request {$GLOBAL.config.currency}" class="alt_btn">
+<input id="mainsubmit" type="submit" value="Request {$GLOBAL.config.currency}">
 </form>
 
 {section name=news loop=$NEWS}

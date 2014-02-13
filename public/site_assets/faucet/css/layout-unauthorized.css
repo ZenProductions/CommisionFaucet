@@ -872,15 +872,16 @@ font-size: 14px;}
 
 /* Donation Forms */
 
-#main input.alt_btn[type=submit] {
-	padding: 20px 20px;
-	background-color:gray;
-	font-family:sans-serif;
-	font-size:medium;
-	background:transparent;
+#main input[type=submit] {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 8px;
+    padding: 21px 50px;
 }
 
-#main input.alt_btn[type=submit]:hover {
+#main input[type=submit]:hover {
 	background-color:black;
 }
 
