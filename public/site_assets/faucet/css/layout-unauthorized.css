@@ -872,6 +872,18 @@ font-size: 14px;}
 
 /* Donation Forms */
 
+#main input.alt_btn[type=submit] {
+	padding: 20px 20px;
+	background-color:gray;
+	font-family:sans-serif;
+	font-size:medium;
+	background:transparent;
+}
+
+#main input.alt_btn[type=submit]:hover {
+	background-color:black;
+}
+
 #main .payout_container {
     margin: 0 auto;
     width: 1000px;
@@ -884,10 +896,9 @@ margin: 0 auto;
 
 #main h1 {
 	color:white;
-	text-transform:capitalize;
 	font-size:90px;
 	font-family:sans-serif;
-	font-style:oblique;
+	font-weight:bold;
 }
 
 #header img {
@@ -895,7 +906,7 @@ margin: 0 auto;
 }
 
 .footer {
-    background-color: #3498db;
+    background-color:black;
 }
 
 .footer a {
