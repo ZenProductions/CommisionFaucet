@@ -891,7 +891,7 @@ text-shadow: none;
     font-weight:normal;
     margin-left: 8px;
     padding: 21px 50px;
-    height:67px;
+    height:83px;
 }
 
 #main input[type=submit]:hover {
@@ -906,7 +906,7 @@ text-shadow: none;
 #main input[type=text] {
     border: none;
     font-size: 18px;
-    height: 83px;
+    height: 67px;
     width: 65%;
     color: #555555;
     line-height: 1.42857;
