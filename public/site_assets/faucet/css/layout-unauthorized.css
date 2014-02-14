@@ -884,7 +884,7 @@ height:	auto;
 border-radius: 0;
 text-shadow: none;
 
-
+    font-family: helvetica, arial, sans-serif;
     background-color: #222222;
     color: #FFFFFF;
     font-size: 18px;
@@ -892,6 +892,7 @@ text-shadow: none;
     margin-left: 8px;
     padding: 21px 50px;
     height:83px;
+    vertical-align: middle;
 }
 
 #main input[type=submit]:hover {
@@ -913,7 +914,6 @@ text-shadow: none;
     padding: 8px 12px;
     vertical-align: middle;
     font-family: helvetica, arial, sans-serif;
-    vertical-align:middle;
 }
 
 #header .container {
