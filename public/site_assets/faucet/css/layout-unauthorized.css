@@ -888,9 +888,10 @@ text-shadow: none;
     background-color: #222222;
     color: #FFFFFF;
     font-size: 18px;
-    font-weight: 500;
+    font-weight:normal;
     margin-left: 8px;
     padding: 21px 50px;
+    height:67px;
 }
 
 #main input[type=submit]:hover {
@@ -900,6 +901,18 @@ text-shadow: none;
 #main .payout_container {
     margin: 0 auto;
     width: 1000px;
+}
+
+#main input[type=text] {
+    border: none;
+    font-size: 18px;
+    height: 67px;
+    width: 240px;
+    color: #555555;
+    line-height: 1.42857;
+    padding: 8px 12px;
+    vertical-align: middle;
+    font-family: helvetica, arial, sans-serif;
 }
 
 #header .container {
@@ -929,7 +942,7 @@ margin: 0 auto;
 #main .payout_form {
     display: inline-block;
     margin: 0 auto;
-    width: 450px;
+    width: 750px;
 }
 
 #main .width_half {

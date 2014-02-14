@@ -1,4 +1,4 @@
-<h1>Get {$GLOBAL.config.currency}</h1>
+<h1>Get Free {$GLOBAL.config.currency}</h1>
 
 <div class="payout_container">
 <form action="{$smarty.server.SCRIPT_NAME}" method="post" class="payout_form">
