@@ -906,13 +906,14 @@ text-shadow: none;
 #main input[type=text] {
     border: none;
     font-size: 18px;
-    height: 67px;
-    width: 240px;
+    height: 83px;
+    width: 65%;
     color: #555555;
     line-height: 1.42857;
     padding: 8px 12px;
     vertical-align: middle;
     font-family: helvetica, arial, sans-serif;
+    vertical-align:middle;
 }
 
 #header .container {
@@ -923,7 +924,7 @@ margin: 0 auto;
 #main h1 {
 	color:white;
 	font-size:90px;
-	font-family:sans-serif;
+    font-family: helvetica, arial, sans-serif;
 	font-weight:bold;
 }
 
